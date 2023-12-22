@@ -193,7 +193,7 @@ header>nav>ul {
     header>nav {
         position: absolute;
         top: 0;
-        height: 50svh;
+        height: 100svh;
         left: 0;
         width: 0;
         padding-top: 50px;
@@ -251,7 +251,7 @@ header>nav>ul {
 /* Hero */
 
 .hero {
-    background-image: url("assets/principal.jpg");
+    background-image: url("public/principal.jpg");
     height: 70svh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -317,16 +317,18 @@ header>nav>ul {
 }
 
 .about-image {
-    background-image: url("assets/nosotros.jpg");
+    background-image: url("public/nosotros.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 40svh;
+    height: 50svh;
 }
 
 .about-info {
     background-color: var(--tm--primaryColor);
     padding: var(--tm--padding-m);
+    display: grid;
+    align-content: center;
 }
 
 .about-info h3,
